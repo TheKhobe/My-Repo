@@ -10,7 +10,7 @@ function Content() {
     <div>
      <div className='flex md:flex-row flex-col md:space-x-6 md:space-y-0 space-y-4 md:ml-12 mx-8 md:mx-0'>
   <div className='flex flex-col md:w-2/3 md:space-y-4'>
-  <div className='mt-32 md:mt-0'>
+  <div className='mt-40 md:mt-0'>
   <img src={web} alt='webkit' className='md:visible invisible'/>
   <img src={mobile} alt='webkit' className='md:hidden block -mt-72'/>
   
