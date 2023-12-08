@@ -19,7 +19,7 @@ const handleNav = () => {
       <Link to='/'  className='hover:text-softRed'>Trending</Link>
       <Link to='/'  className='hover:text-softRed'>Categories</Link>
     </div>
-    <div onClick={handleNav} className='block md:hidden md:pt-0 ml-40 md:ml-0'>
+    <div onClick={handleNav} className='block md:hidden md:pt-0 pt-6 ml-40 md:ml-0'>
     { !nav ? <img src={Close} alt='close' />:  <img src={Hamburger} alt='hamburger'/>}
    
     </div>
